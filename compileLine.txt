@@ -1,0 +1,1 @@
+gcc -o tri_curve  main.c structs.h DrawBezierCurve.c move_control_points.c tangent.c bezierCurve.c -I/usr/local/include -L/usr/local/lib -lraylib -lGL -lm -lpthread -ldl
