@@ -21,7 +21,7 @@ void DrawBezierCurve(Spline spline, float thickness, float step) {
         Vector2 currentPoint = BezierCurve(spline.P0, spline.P1, spline.P2, spline.P3, t);
 
         //only compute the next point and draw if t + step is within bounds
-        if (true) {
+        if (true) { // I added this if statement for debugging and forgot to remove it; it is redundant of course.. but am keeping it just because
             Vector2 nextPoint = BezierCurve(spline.P0, spline.P1, spline.P2, spline.P3, t + step);
 
             // Tangents at the current and next points
